@@ -25,6 +25,15 @@ Este projeto é um exemplo prático de um aplicativo CRUD (Create, Read, Update,
 - **MySQL Connector**: 8.0.26
 - **Spring Boot DevTools**: 2.5.5
 
+## Funcionalidades
+O aplicativo oferece as seguintes funcionalidades:
+
+Listagem de carros cadastrados.
+Detalhes de um carro específico.
+Adição de um novo carro.
+Edição das informações de um carro.
+Exclusão de um carro.
+
 ## Configuração do Banco de Dados
 
 O projeto utiliza o MySQL como banco de dados. Certifique-se de configurar as informações de conexão no arquivo `application.properties`:
@@ -34,11 +43,4 @@ spring.datasource.url=jdbc:mysql://localhost:3306/nome_do_banco
 spring.datasource.username=seu_usuario
 spring.datasource.password=sua_senha
 
-## Funcionalidades
-O aplicativo oferece as seguintes funcionalidades:
 
-Listagem de carros cadastrados.
-Detalhes de um carro específico.
-Adição de um novo carro.
-Edição das informações de um carro.
-Exclusão de um carro.
